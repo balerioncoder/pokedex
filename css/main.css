@@ -43,6 +43,26 @@ button {
     border-radius: 0;
 }
 
+body {
+    min-height: 100vh;
+    background-color: var(--clr-gray);
+}
+
+header {
+    padding-block: 1rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.nav-list {
+    display: flex;
+}
+
 .normal {
     background-color: var(--type-normal);
     color: var(--clr-black);
@@ -137,4 +157,3 @@ button {
     background-color: var(--type-fairy);
     color: var(--clr-black);
 }
-
